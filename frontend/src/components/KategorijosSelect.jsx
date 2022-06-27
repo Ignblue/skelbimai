@@ -54,7 +54,6 @@ const KategorijosSelect = ({ state_status_text, set_state_kategorija }) =>
                 const selectedIndex = param.target.selectedIndex
                 const selected_option = param.target.options[selectedIndex]
                 set_state_kategorija(selected_option.innerHTML)
-                console.log(selected_option.innerHTML)
             }}>
 
                 {
