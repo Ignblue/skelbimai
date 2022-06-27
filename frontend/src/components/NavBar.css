@@ -7,4 +7,5 @@
     grid-template-columns: max-content auto repeat(7, max-content);
     border-bottom: 0.1em solid lightgray;
     gap: 0.5em;
+    background-color: azure;
 }

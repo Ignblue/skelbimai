@@ -40,7 +40,7 @@ const CreateSkelbimas = ({ set_state_status_text }) =>
     return (
         <div className="CreateSkelbimas">
 
-            <h4>CreateSkelbimas</h4>
+            <h4>Skelbimo kūrimas</h4>
 
             <span>pavadinimas</span>
             <input type="text" ref={ref_pavadinimas} />
@@ -49,7 +49,7 @@ const CreateSkelbimas = ({ set_state_status_text }) =>
                 set_state_kategorija={set_state_kategorija}
             />
 
-            <span>aprasas</span>
+            <span>aprašas</span>
             <textarea ref={ref_aprasas} />
 
             <span>kaina (EUR)</span>
@@ -80,7 +80,7 @@ const CreateSkelbimas = ({ set_state_status_text }) =>
                     ref_kaina.current.value,
                     state_nuotrauka_base64
                 )
-            }}>Prideti</button>
+            }}>Pridėti</button>
 
         </div>
     )

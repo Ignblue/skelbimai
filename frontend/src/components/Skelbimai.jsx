@@ -39,7 +39,7 @@ const Skelbimai = ({ set_state_status_text }) =>
     return (
         <div className="Skelbimai">
 
-            <span>paieskos_fraze</span>
+            <span>paieškos frazė</span>
 
             <input type="text" ref={ref_paieskos_fraze} />
 

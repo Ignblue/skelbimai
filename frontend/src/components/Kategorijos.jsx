@@ -111,7 +111,7 @@ const Kategorijos = ({ set_state_status_text }) =>
 
             <input type="text" ref={ref_pavadinimas} />
 
-            <button onClick={() => { handle_create(ref_pavadinimas.current.value) }}>Prideti</button>
+            <button onClick={() => { handle_create(ref_pavadinimas.current.value) }}>Pridėti</button>
 
         </div>
     )

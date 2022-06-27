@@ -114,7 +114,7 @@ const SkelbimasBig = ({ _id, handle_close, set_state_status_text }) =>
 
                 <button onClick={() => { handle_add_to_patikusiu_sarasas(_id) }}>Pridėti į patikusių sąrašą</button>
 
-                <button onClick={handle_close}>close</button>
+                <button onClick={handle_close}>Uždaryti</button>
 
             </div >
         )
