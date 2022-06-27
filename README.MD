@@ -29,6 +29,6 @@ administratorius:
 
 vartototojas:
     prisijungimo vardas:
-    vardenis
+    vardas
     slaptazodis:
-    pavardenis
+    123456
