@@ -1,6 +1,6 @@
 const model_vartotojas = require("../models/model_vartotojas");
 const generate_random_alphanumeric_string = require("../utilities/generate_random_alphanumeric_string");
-const hash_with_sha256_and_encode_to_base64 = require("../utilities/hash_with_sha256_and_encode_to_base64");
+const hash_with_sha256_and_encode_to_base64 = require("../utilities/hash_with_sha256_and_ encode_to_base64");
 
 const controller_login_post = async (req, res) =>
 {
